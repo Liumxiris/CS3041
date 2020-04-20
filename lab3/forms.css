@@ -1,0 +1,54 @@
+label {
+  display: block;
+}
+
+input {
+  height: 50%;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 3px solid;
+
+}
+
+.error {
+  background-color: LightYellow;
+  color: DarkRed;
+  width: 160px;
+  padding: 10px;
+  border: 1px solid gray;
+  position: absolute;
+  left: 200px;
+  box-shadow: 3px 3px 3px #999999;
+  border-radius: 7px;
+  visibility: hidden;
+}
+
+input[type='submit'] {
+  width: 10px
+  height:10px;
+  margin: auto;
+  font-size: 16px;
+  -webkit-border-image: url("blueButton.png") 0 14 0 14 stretch;
+}
+
+input:required {
+  background-color: #F9F9CF;
+}
+
+input:invalid {
+  color: DarkRed;
+
+}
+
+input:valid {
+  background-color: #E8F0FE;
+}
